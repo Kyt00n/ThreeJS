@@ -36,7 +36,7 @@ fontLoader.load(
 
         // Text
         const textGeometry = new TextGeometry(
-            'Hello Three.js',
+            'Eryk Olsza\nThree.js',
             {
                 font: font,
                 size: 0.5,
@@ -57,7 +57,7 @@ fontLoader.load(
         // Donuts
         const donutGeometry = new THREE.TorusGeometry(0.3, 0.2, 32, 64)
 
-        for(let i = 0; i < 100; i++)
+        for(let i = 0; i < 500; i++)
         {
             const donut = new THREE.Mesh(donutGeometry, material)
             donut.position.x = (Math.random() - 0.5) * 10
