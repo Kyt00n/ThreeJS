@@ -28,7 +28,7 @@ fontLoader.load(
     'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json',
     (font) => {
         const textGeometry = new TextGeometry(
-            'Eryk Olsza\nthree.js',
+            'Neeky\nMusic',
             {
                 font: font,
                 size: 0.5,
@@ -41,6 +41,7 @@ fontLoader.load(
                 bevelSegments: 4
             }
         )
+        
         textGeometry.computeBoundingBox()
         // textGeometry.translate(
         //     -(textGeometry.boundingBox.max.x - 0.02) * 0.5,
